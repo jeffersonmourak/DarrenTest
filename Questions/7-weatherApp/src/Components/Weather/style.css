@@ -1,0 +1,30 @@
+.weather-day-section {
+    scroll-snap-align: start;
+}
+
+.weather-day-today {
+    height: 80vh;
+    color: #585858;
+    text-align: center;
+}
+
+.weather-day-section.hot {
+    background-color: #FFE082;
+}
+
+.weather-day-section.cold {
+    background-color: #81D4FA;
+}
+
+.weather-day-today .icon {
+    padding-top: 15vh;
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.weather-day-today .temperature {
+    display: block;
+    font-weight: 700;
+    font-size: 6em;
+    margin: 0;
+}

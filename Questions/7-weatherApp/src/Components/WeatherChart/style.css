@@ -1,0 +1,15 @@
+.canvas {
+    width: 100%;
+    overflow-x: scroll;
+}
+.canvas-box {
+    width: 110%;
+    height: 200px;
+    margin-left: -5%;
+}
+
+.canvas-container {
+    overflow: hidden;
+    min-width: 700px;
+    height: 150px;
+}

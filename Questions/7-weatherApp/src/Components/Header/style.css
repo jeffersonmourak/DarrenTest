@@ -1,0 +1,13 @@
+.header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 6px 20px 2px;
+}
+
+.weather-day-section {
+    padding-top: 46px;
+}

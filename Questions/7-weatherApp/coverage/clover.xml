@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1544884915478" clover="3.2.0">
+  <project timestamp="1544884915478" name="All files">
+    <metrics statements="288" coveredstatements="28" conditionals="59" coveredconditionals="5" methods="105" coveredmethods="16" elements="452" coveredelements="49" complexity="0" loc="288" ncloc="288" packages="16" files="31" classes="31">
+      <package name="src">
+        <metrics statements="15" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="constants.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/constants.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="2" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/index.js">
+          <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Actions">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <file name="SearchCity.actions.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Actions/SearchCity.actions.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+        </file>
+        <file name="Weather.actions.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Actions/Weather.actions.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Api">
+        <metrics statements="47" coveredstatements="19" conditionals="9" coveredconditionals="5" methods="17" coveredmethods="8"/>
+        <file name="Api.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Api/Api.js">
+          <metrics statements="23" coveredstatements="19" conditionals="9" coveredconditionals="5" methods="8" coveredmethods="8"/>
+          <line num="3" count="9" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="stmt"/>
+          <line num="7" count="9" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="20" count="4" type="stmt"/>
+          <line num="24" count="4" type="stmt"/>
+          <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="27" count="2" type="stmt"/>
+          <line num="28" count="2" type="cond" truecount="1" falsecount="1"/>
+          <line num="29" count="2" type="stmt"/>
+          <line num="32" count="4" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="64" count="1" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+        </file>
+        <file name="Cities.api.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Api/Cities.api.js">
+          <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+        </file>
+        <file name="Forecast.api.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Api/Forecast.api.js">
+          <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+        </file>
+        <file name="Weather.api.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Api/Weather.api.js">
+          <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.AutoComplete">
+        <metrics statements="21" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <file name="Option.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/AutoComplete/Option.js">
+          <metrics statements="3" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/AutoComplete/index.js">
+          <metrics statements="18" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="13" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.Day">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/Day/index.js">
+          <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.Header">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/Header/index.js">
+          <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.Icon">
+        <metrics statements="2" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/Icon/index.js">
+          <metrics statements="2" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.If">
+        <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/If/index.js">
+          <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.Loading">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/Loading/index.js">
+          <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.NotFound">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/NotFound/index.js">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.SearchCity">
+        <metrics statements="22" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/SearchCity/index.js">
+          <metrics statements="22" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.Weather">
+        <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/Weather/index.js">
+          <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Components.WeatherChart">
+        <metrics statements="50" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="18" coveredmethods="0"/>
+        <file name="customTooltip.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/WeatherChart/customTooltip.js">
+          <metrics statements="22" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Components/WeatherChart/index.js">
+          <metrics statements="28" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="11" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+          <line num="98" count="0" type="stmt"/>
+          <line num="100" count="0" type="stmt"/>
+          <line num="103" count="0" type="stmt"/>
+          <line num="108" count="0" type="stmt"/>
+          <line num="109" count="0" type="stmt"/>
+          <line num="110" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="112" count="0" type="stmt"/>
+          <line num="123" count="0" type="stmt"/>
+          <line num="125" count="0" type="stmt"/>
+          <line num="133" count="0" type="stmt"/>
+          <line num="136" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Helpers">
+        <metrics statements="39" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="25" coveredmethods="0"/>
+        <file name="city.helper.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Helpers/city.helper.js">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+        </file>
+        <file name="date.helper.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Helpers/date.helper.js">
+          <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+        </file>
+        <file name="forecast.helper.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Helpers/forecast.helper.js">
+          <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+        </file>
+        <file name="icon.helper.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Helpers/icon.helper.js">
+          <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="1"/>
+          <line num="37" count="0" type="stmt"/>
+        </file>
+        <file name="page.helper.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Helpers/page.helper.js">
+          <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+        </file>
+        <file name="weather.helper.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Helpers/weather.helper.js">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Pages">
+        <metrics statements="31" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <file name="Home.page.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Pages/Home.page.js">
+          <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+        <file name="Weather.page.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Pages/Weather.page.js">
+          <metrics statements="24" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.Reducers">
+        <metrics statements="19" coveredstatements="0" conditionals="11" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="SearchCity.reducer.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Reducers/SearchCity.reducer.js">
+          <metrics statements="8" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+        </file>
+        <file name="Weather.reducer.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Reducers/Weather.reducer.js">
+          <metrics statements="7" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/jeffersonmourak/projects/farmersedge/Questions/7-weatherApp/src/Reducers/index.js">
+          <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

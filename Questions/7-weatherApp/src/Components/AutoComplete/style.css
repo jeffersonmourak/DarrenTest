@@ -1,0 +1,48 @@
+.auto-complete {
+    display: inline-block;
+    position: relative;
+}
+
+.auto-complete input {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    transition: all 300ms ease;
+}
+
+.auto-complete.big input {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.auto-complete input:focus, .auto-complete input:hover {
+    outline: none;
+    border: 1px solid #717171;
+}
+
+.auto-complete .dropdown {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, .2) -1px 6px 20px 0px;
+    margin-top: 5px;
+    border-radius: 12px;
+    min-width: 200px;
+}
+
+.auto-complete .dropdown .item {
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.auto-complete.big .dropdown .item {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.auto-complete .dropdown .item:not(.static):hover {
+    background-color: #ccc;
+}

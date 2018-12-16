@@ -1,0 +1,15 @@
+{
+  "name": "farmersedge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^4.4.2"
+  }
+}

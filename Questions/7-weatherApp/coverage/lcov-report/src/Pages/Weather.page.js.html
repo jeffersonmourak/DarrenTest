@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src/Pages/Weather.page.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">src/Pages</a> Weather.page.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/25</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/24</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >import React, { Component } from 'react';</span>
+<span class="cstat-no" title="statement not covered" >import scrollSnapPolyfill from 'css-scroll-snap-polyfill'</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import ForecastApi from '../Api/Forecast.api';</span>
+<span class="cstat-no" title="statement not covered" >import WeatherApi from '../Api/Weather.api';</span>
+<span class="cstat-no" title="statement not covered" >import { createDayData } from '../Helpers/forecast.helper';</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import NotFound from '../Components/NotFound';</span>
+<span class="cstat-no" title="statement not covered" >import Weather from '../Components/Weather';</span>
+<span class="cstat-no" title="statement not covered" >import Loading from '../Components/Loading';</span>
+&nbsp;
+class WeatherPage extends Component {
+&nbsp;
+<span class="fstat-no" title="function not covered" >  async </span>resolveRequests() {
+    const data<span class="cstat-no" title="statement not covered" > = { ...this.props.match.params };</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    try <span class="cstat-no" title="statement not covered" >{</span></span>
+      let [weather, forecast] = <span class="cstat-no" title="statement not covered" >await Promise.all([WeatherApi.get(data), ForecastApi.get(data)]);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      this.props.loaded({</span>
+        weather,
+        forecast: createDayData(forecast)
+      });
+&nbsp;
+    } catch (e) {
+<span class="cstat-no" title="statement not covered" >      if (e.status === 404) {</span>
+<span class="cstat-no" title="statement not covered" >        this.props.notFound();</span>
+      }
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  componentDidUpdate</span>(prevProps) {
+<span class="cstat-no" title="statement not covered" >    if (prevProps.match.url !== this.props.match.url) {</span>
+<span class="cstat-no" title="statement not covered" >      this.props.reset();</span>
+<span class="cstat-no" title="statement not covered" >      this.resolveRequests();</span>
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  componentDidMount</span>() {
+<span class="cstat-no" title="statement not covered" >    this.resolveRequests();</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    scrollSnapPolyfill();</span>
+  }
+  
+<span class="fstat-no" title="function not covered" >  render</span>() {
+<span class="cstat-no" title="statement not covered" >    if (this.props.page.error) {</span>
+<span class="cstat-no" title="statement not covered" >      return &lt;NotFound/&gt;;</span>
+    } else <span class="cstat-no" title="statement not covered" >if (this.props.page.ready) {</span>
+<span class="cstat-no" title="statement not covered" >      return (</span>
+        &lt;Weather forecast = { this.props.page.forecast } 
+                 weather = { this.props.page.weather }
+                 history = { this.props.history } /&gt;
+      );
+    } else {
+<span class="cstat-no" title="statement not covered" >      return &lt;Loading/&gt;;</span>
+    }
+  }
+}
+&nbsp;
+export default WeatherPage;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Dec 15 2018 11:42:21 GMT-0300 (Brasilia Standard Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
