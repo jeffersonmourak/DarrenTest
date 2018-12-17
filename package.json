@@ -4,12 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "init": "yarn && yarn --cwd Questions/7-weatherApp",
+    "test": "jest && yarn --cwd Questions/7-weatherApp run test:single"
   },
   "devDependencies": {
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "@sentry/browser": "^4.4.2"
+    "yarn": "^1.12.3"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/7-weatherApp/"
+    ]
   }
 }
